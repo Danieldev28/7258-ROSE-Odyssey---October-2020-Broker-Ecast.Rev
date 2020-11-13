@@ -1,0 +1,446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	 "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Odyssey</title>
+		<style type="text/css">
+			@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+			@font-face {
+				font-family: 'Gotham';
+				src: url('https://www.rosehavenhomes.com/fonts/Gotham-Light.eot');
+				src: url('https://www.rosehavenhomes.com/fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+					 url('https://www.rosehavenhomes.com/fonts/Gotham-Light.woff2') format('woff2'),
+					 url('https://www.rosehavenhomes.com/fonts/Gotham-Light.woff') format('woff'),
+					 url('https://www.rosehavenhomes.com/fonts/Gotham-Light.ttf') format('truetype'),
+					 url('https://www.rosehavenhomes.com/fonts/Gotham-Light.svg#Gotham-Light') format('svg');
+				font-weight: 100;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: 'Gotham';
+				src: url('https://www.rosehavenhomes.com/fonts/gotham-book-webfont.eot');
+				src: url('https://www.rosehavenhomes.com/fonts/gotham-book-webfont?#iefix') format('embedded-opentype'),
+					 url('https://www.rosehavenhomes.com/fonts/gotham-book-webfont.woff2') format('woff2'),
+					 url('https://www.rosehavenhomes.com/fonts/gotham-book-webfont.woff') format('woff'),
+					 url('https://www.rosehavenhomes.com/fonts/gotham-book-webfont.ttf') format('truetype'),
+					 url('https://www.rosehavenhomes.com/fonts/gotham-book-webfont.svg#gotham-book-webfont') format('svg');
+				font-weight: normal;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: 'Gotham';
+				src: url('https://www.rosehavenhomes.com/fonts/Gotham-Medium.eot');
+				src: url('https://www.rosehavenhomes.com/fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+					 url('https://www.rosehavenhomes.com/fonts/Gotham-Medium.woff2') format('woff2'),
+					 url('https://www.rosehavenhomes.com/fonts/Gotham-Medium.woff') format('woff'),
+					 url('https://www.rosehavenhomes.com/fonts/Gotham-Medium.ttf') format('truetype'),
+					 url('https://www.rosehavenhomes.com/fonts/Gotham-Medium.svg#Gotham-Medium') format('svg');
+				font-weight: 500;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: 'Gotham';
+				src: url('https://www.rosehavenhomes.com/fonts/gotham-bold-webfont.eot');
+				src: url('https://www.rosehavenhomes.com/fonts/gotham-bold-webfont?#iefix') format('embedded-opentype'),
+					 url('https://www.rosehavenhomes.com/fonts/gotham-bold-webfont.woff') format('woff'),
+					 url('https://www.rosehavenhomes.com/fonts/gotham-bold-webfont.ttf') format('truetype'),
+					 url('https://www.rosehavenhomes.com/fonts/gotham-bold-webfont.svg#gotham-bold-webfont') format('svg');
+				font-weight: bold;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: 'Futura';
+				src: url('https://www.rosehavenhomes.com/fonts/FuturaStd-Light.eot');
+				src: url('https://www.rosehavenhomes.com/fonts/FuturaStd-Light?#iefix') format('embedded-opentype'),
+					 url('https://www.rosehavenhomes.com/fonts/FuturaStd-Light.woff') format('woff'),
+					 url('https://www.rosehavenhomes.com/fonts/FuturaStd-Light.ttf') format('truetype'),
+					 url('https://www.rosehavenhomes.com/fonts/FuturaStd-Light.svg#FuturaStd-Light') format('svg');
+				font-weight: 300;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: 'Futura';
+				src: url('https://www.rosehavenhomes.com/fonts/FuturaStd-Medium.eot');
+				src: url('https://www.rosehavenhomes.com/fonts/FuturaStd-Medium?#iefix') format('embedded-opentype'),
+					 url('https://www.rosehavenhomes.com/fonts/FuturaStd-Medium.woff') format('woff'),
+					 url('https://www.rosehavenhomes.com/fonts/FuturaStd-Medium.ttf') format('truetype'),
+					 url('https://www.rosehavenhomes.com/fonts/FuturaStd-Medium.svg#FuturaStd-Medium') format('svg');
+				font-weight: normal;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: 'Futura';
+				src: url('https://www.rosehavenhomes.com/fonts/FuturaStd-Bold.eot');
+				src: url('https://www.rosehavenhomes.com/fonts/FuturaStd-Bold?#iefix') format('embedded-opentype'),
+					 url('https://www.rosehavenhomes.com/fonts/FuturaStd-Bold.woff') format('woff'),
+					 url('https://www.rosehavenhomes.com/fonts/FuturaStd-Bold.ttf') format('truetype'),
+					 url('https://www.rosehavenhomes.com/fonts/FuturaStd-Bold.svg#FuturaStd-Bold') format('svg');
+				font-weight: bold;
+				font-style: normal;
+			}
+			@media screen and (max-width: 768px), screen and (max-device-width: 768px){
+				table[class="contenttable"]{
+					width: 340px !important;
+				}
+				table[class="disclaim"]{
+					width: 340px !important;
+				}
+				table[class="forty"]{
+					width: 100% !important;
+				}
+				table[class="sixty"]{
+					width: 100% !important;
+				}
+				table[class="half1"]{
+					width: 50% !important;
+				}
+				table[class="half2"]{
+					width: 50% !important;
+				}
+				img[class="rosehaven"]{
+					width:180px !important;
+				}
+				img[class="box"]{
+					width:260px !important;
+				}
+				img[class="button"]{
+					height:32px !important;
+				}
+				td[class="header1"]{
+					font-size: 12px !important;
+				}
+				td[class="header2"]{
+					font-size: 7px !important;
+				}
+				td[class="header3"]{
+					font-size: 22px !important;
+				}
+				td[class="header4"]{
+					font-size: 18px !important;
+				}
+				td[class="header5"]{
+					font-size: 13px !important;
+				}
+				td[class="header6"]{
+					font-size: 12px !important;
+				}
+				td[class="header7"]{
+					font-size: 18px !important;
+				}
+				td[class="header8"]{
+					font-size: 11px !important;
+				}
+				td[class="url"]{
+					font-size: 28px !important;
+				}
+				td[class="text1"]{
+					font-size: 9px !important;
+				}
+				td[class="address1"]{
+					font-size: 14px !important;
+				}
+				td[class="address2"]{
+					font-size: 10px !important;
+				}
+				td[class="footer1"]{
+					font-size: 10px !important;
+				}
+				td[class="footer2"]{
+					font-size: 8px !important;
+				}
+				td[class="footer3"]{
+					font-size: 6px !important;
+				}
+				td[class="legal1"]{
+					padding:20px 20px 0px!important;
+					text-align: center !important;
+				}
+				td[class="legal2"]{
+					padding:20px 28px 0px!important;
+					text-align: center !important;
+				}
+				td[class="social"]{
+					padding:0px!important;
+					text-align: center !important;
+				}
+			}
+			table{
+				mso-table-lspace:0pt;
+				mso-table-rspace:0pt;
+				border-collapse:collapse;
+			}
+			a {
+				text-decoration:none;
+				border:none;
+				padding: 0px;
+				margin: 0px;
+			}
+			img {
+				border:none;
+				border-collapse:collapse;
+			}
+			p {
+				padding:0px;
+				margin:0px;
+			}
+			hr {
+				height:1px;
+				color:#fff;
+				background-color:#fff;
+				border:none;
+			}
+			.ReadMsgBody{width: 100%; margin:0px; padding:0px;}
+			.ExternalClass{width: 100%; margin:0px; padding:0px; background-color:#fcfcfc !important;}
+			*{line-height: 100%}
+			table.forty{width:248px;}
+			table.sixty{width:352px;}
+			table.half1{width:300px;}
+			table.half2{width:300px;}
+		</style>
+		<!--[if gte mso 9]>
+			<style>
+				table.sixty{width:342px;}
+				table.half1{width:280px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body bgcolor="#fcfcfc" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" style="-webkit-font-smoothing: antialiased;width:100% !important;background:#fcfcfc;-webkit-text-size-adjust:none;background-color:#fcfcfc;">
+		<table border="0" cellpadding="0" cellspacing="0" class="contenttable" align="center" style="width:600px;height:auto;border-collapse:collapse;">
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:30px 0px;color:#8f8f8f;font-family:'Gotham', sans-serif;font-size:12px;line-height:1.6;text-align:center;" class="disclaim">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.6;"><![endif]-->
+						{{lead.First Name:default=Subscriber}}, is this email not displaying correctly? <a href="{{system.viewAsWebpageLink}}" style="color:#8f8f8f;line-height:1.6;">View it in your browser</a>.
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:30px 0px 24px;text-align:center;line-height:1;background-color:#fff;">
+					<a href="https://www.rosehavenhomes.com/?utm_source=6228%20ROSE%20Odyssey%20-%20June%202020&amp;utm_medium=email&amp;utm_campaign=Odyssey&amp;utm_content=Rosehaven%20Homes%20Logo%20and%20Slogan" target="_blank" style="line-height:1;text-decoration:none;">
+						<img src="https://www.rosehavenhomes.com/email/6228/top.png" style="line-height:1;width:100%;" alt="Rosehaven Homes - Our Passion, Your Home">
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:0px;text-align:center;line-height:1;background-color:#183346;">
+					<img src="https://www.rosehavenhomes.com/email/6228/commission.png" style="line-height:1;width:100%;" alt="Earn 3% Commission**">
+				</td> 
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:0px;text-align:center;line-height:1;background-color:#183346;">
+					<a href="https://www.rosehavenhomes.com/new-condos/grimsby/odyssey/?utm_source=6228%20ROSE%20Odyssey%20-%20June%202020&amp;utm_medium=email&amp;utm_campaign=Odyssey&amp;utm_content=Rendering" target="_blank" style="line-height:1;text-decoration:none;">
+						<img src="https://www.rosehavenhomes.com/email/6228/rendering.png" style="line-height:1;width:100%;" alt="Odyssey - Condos and Towns">
+					</a>
+				</td> 
+			</tr>
+			
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:30px 0px 24px;background-color:#193346;color:#fff;font-family:'Futura', sans-serif;font-size:25px;line-height:1.4;text-align:center;" class="header1">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.2;"><![endif]-->
+						<span style="color: #E6BD6C;text-transform: uppercase;font-weight: bold;line-height: 1.4;">Limited time offer!</span>
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:0px 0px 0px;background-color:#193346;color:#fff;font-family:'Futura', sans-serif;font-size:18px;line-height:1.4;text-align:center;" class="header1">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.2;"><![endif]-->
+						Until June 30th, 2020, when your clients purchase a unit at
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:0px 0px 0px;background-color:#193346;color:#fff;font-family:'Futura', sans-serif;font-size:18px;line-height:1.4;text-align:center;" class="header1">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.2;"><![endif]-->
+						Odyssey, they will:
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:10px 0px 0px;background-color:#193346;color:#fff;font-family:'Futura', sans-serif;font-size:18px;line-height:1.4;text-align:center;" class="header1">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.2;"><![endif]-->
+						<span style="color: #E6BD6C;text-transform: uppercase;font-weight: bold;line-height: 1.4;">&bull;</span> Take advantage of our extended deposit structure
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:0px 0px 0px;background-color:#193346;color:#fff;font-family:'Futura', sans-serif;font-size:18px;line-height:1.4;text-align:center;" class="header1">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.2;"><![endif]-->
+						<span style="color: #E6BD6C;text-transform: uppercase;font-weight: bold;line-height: 1.4;">&bull;</span> Receive $2,500 décor centre upgrades
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:0px 0px 24px;background-color:#193346;color:#fff;font-family:'Futura', sans-serif;font-size:18px;line-height:1.4;text-align:center;" class="header1">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.2;"><![endif]-->
+						<span style="color: #E6BD6C;text-transform: uppercase;font-weight: bold;line-height: 1.4;">&bull;</span> <span style="font-weight: bold;text-transform: uppercase;">and</span> receive $5,000 off the purchase price!*
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:0px 0px 0px;background-color:#193346;color:#fff;font-family:'Futura', sans-serif;font-size:18px;line-height:1.4;text-align:center;" class="header1">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.2;"><![endif]-->
+						<span style="color: #E6BD6C;font-weight: bold;line-height: 1.4;">Contact our sales representatives to book your</span>
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:0px 0px 30px;background-color:#193346;color:#fff;font-family:'Futura', sans-serif;font-size:18px;line-height:1.4;text-align:center;" class="header1">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.2;"><![endif]-->
+						<span style="color: #E6BD6C;font-weight: bold;line-height: 1.4;">virtual appointment today.</span>
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:34px 0px 34px;background-color:#fff;color:#06403e;font-family:'Futura', sans-serif;font-size:24px;line-height:1.2;text-align:center;font-weight:bold;text-transform:uppercase;" class="header5">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.2;"><![endif]-->
+						Starting from the mid $500s*
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:0px 0px 14px;text-align:center;line-height:1;background-color:#fff;">
+					<a href="tel:12892357430" style="line-height:1;text-decoration:none;" class="mktNoTrack">
+						<img src="https://www.rosehavenhomes.com/email/6228/button-1.png" style="line-height:1;" alt="Click to Call" class="button">
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:14px 0px 34px;text-align:center;line-height:1;background-color:#fff;">
+					<a href="mailto:odysseycondos@rosehavenhomes.com" style="line-height:1;text-decoration:none;" class="mktNoTrack">
+						<img src="https://www.rosehavenhomes.com/email/6228/button-2.png" style="line-height:1;" alt="Click to Email" class="button">
+					</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:0px;text-align:center;line-height:1;background-color:#fff;">
+					<a href="https://www.rosehavenhomes.com/new-condos/grimsby/odyssey/?utm_source=6228%20ROSE%20Odyssey%20-%20June%202020&amp;utm_medium=email&amp;utm_campaign=Odyssey&amp;utm_content=gif" target="_blank" style="line-height:1;text-decoration:none;">
+						<img src="https://www.rosehavenhomes.com/email/6228/Tour-GIF.gif" style="line-height:1;width:100%;" alt="Gif">
+					</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:0px;text-align:center;line-height:1;background-color:#91b5d2;">
+					<a href="https://goo.gl/maps/pE1i8tr8qhy?utm_source=6228%20ROSE%20Odyssey%20-%20June%202020&amp;utm_medium=email&amp;utm_campaign=Odyssey&amp;utm_content=Key%20Map" target="_blank" style="line-height:1;text-decoration:none;">
+						<img src="https://www.rosehavenhomes.com/email/6228/map.png" style="line-height:1;width:100%;" alt="Key Map" class="map">
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:34px 0px 0px;background-color:#7caecb;color:#183346;font-family:'Futura', sans-serif;font-size:17px;line-height:1.9;text-align:center;" class="address2">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.9;"><![endif]-->
+						<a href="mailto:odysseycondos@rosehavenhomes.com" style="line-height:1.9;color:#183346;text-decoration:none;" target="_blank" class="mktNoTrack">odysseycondos@rosehavenhomes.com</a> | <a href="https://www.rosehavenhomes.com/?utm_source=6228%20ROSE%20Odyssey%20-%20June%202020&amp;utm_medium=email&amp;utm_content=Rosehaven%20Homes%20URL&amp;utm_campaign=Odyssey" target="_blank" style="line-height:1.2;color:#183346;text-decoration:none;">www.RosehavenHomes.com</a>
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:24px 0px 54px;background-color:#7caecb;color:#183346;font-family:'Futura', sans-serif;font-size:52px;line-height:1.2;text-align:center;font-weight:500;" class="url">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.2;"><![endif]-->
+						<a href="https://www.rosehavenhomes.com/new-condos/grimsby/odyssey/?utm_source=6228%20ROSE%20Odyssey%20-%20June%202020&amp;utm_medium=email&amp;utm_content=Odyssey%20URL&amp;utm_campaign=Odyssey" target="_blank" style="line-height:1.2;color:#183346;text-decoration:none;">OdysseyLife.ca</a>
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:24px 0px 24px;background-color:#a7bbb8;background-image:url('https://www.rosehavenhomes.com/email/5428/footer.png');" align="center" class="multiCell">
+					<table border="0" cellpadding="0" cellspacing="0" class="" align="center" style="height:auto;border-collapse:collapse;">
+						<tr>
+							<td style="border-collapse:collapse;margin:0px;padding:0px;color:#06403e;font-family:'Gotham', sans-serif;font-size:16px;line-height:1.2;text-align:center;font-weight:bold;text-transform:uppercase;" align="center" class="footer1">
+								<!--[if gte mso 9]><font face="Helvetica, sans-serif" style="line-height:1.2;"><![endif]-->
+									<a href="https://www.rosehavenhomes.com/?utm_source=6228%20ROSE%20Odyssey%20-%20June%202020&amp;utm_medium=email&amp;utm_content=Rosehaven%20Homes&amp;utm_campaign=Anchor%20Woods" target="_blank" style="line-height:1.2;color:#06403e;text-decoration:none;">
+										Rosehaven Homes Head Office
+									</a>
+								<!--[if gte mso 9]></font><![endif]-->
+							</td>
+						</tr>
+						<tr>
+							<td style="border-collapse:collapse;margin:0px;padding:0px;color:#06403e;font-family:'Gotham', sans-serif;font-size:14px;line-height:1.33;text-align:center;" align="center" class="footer1">
+								<!--[if gte mso 9]><font face="Helvetica, sans-serif" style="line-height:1.33;"><![endif]-->
+									<a href="https://www.rosehavenhomes.com/contact/?utm_source=6228%20ROSE%20Odyssey%20-%20June%202020&amp;utm_medium=email&amp;utm_content=Rosehaven%20Homes%20Address&amp;utm_campaign=Anchor%20Woods" target="_blank" style="line-height:1.33;color:#06403e;text-decoration:none;">
+										145 Reynolds St, Suite #300, Oakville, Ontario L6J 0A7
+									</a>
+									<a href="tel:19058491166" style="line-height:1.33;color:#06403e;text-decoration:none;"  class="mktNoTrack">
+										(905) 849-1166
+									</a>
+								<!--[if gte mso 9]></font><![endif]-->
+							</td>
+						</tr>
+						<tr>
+							<td style="border-collapse:collapse;margin:0px;padding:0px 0px 0px;color:#06403e;font-family:'Gotham', sans-serif;font-size:14px;line-height:1.33;text-align:center;" align="center" class="footer1">
+								<!--[if gte mso 9]><font face="Helvetica, sans-serif" style="line-height:1.33;"><![endif]-->
+									<a href="mailto:builder@rosehavenhomes.com" target="_blank" style="line-height:1.33;color:#06403e;text-decoration:none;">
+										builder@rosehavenhomes.com
+									</a> | 
+									<a href="https://www.rosehavenhomes.com/?utm_source=6228%20ROSE%20Odyssey%20-%20June%202020&amp;utm_medium=email&amp;utm_content=Rosehaven%20Homes%20URL&amp;utm_campaign=Anchor%20Woods" target="_blank" style="line-height:1.33;color:#06403e;text-decoration:none;" style="line-height:1.33;color:#06403e;text-decoration:none;"  class="mktNoTrack">
+										www.RosehavenHomes.com
+									</a>
+								<!--[if gte mso 9]></font><![endif]-->
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:24px 0px 28px;text-align:center;background-color:#0b403d;" class="multiCell">
+					<table border="0" cellpadding="0" cellspacing="0" class="forty" align="right">
+						<tr>
+							<td style="border-collapse:collapse;margin:0px;padding:0px 34px 0px 0px;line-height:0px;text-align:right;" align="center" class="social">
+								<a href="https://www.facebook.com/rosehavenhomes" target="_blank" style="line-height:0px;text-decoration:none;">
+									<img src="https://www.rosehavenhomes.com/email/6228/facebook.png" style="line-height:0px;">
+								</a>
+								<a href="https://twitter.com/thisisrosehaven" target="_blank" style="line-height:0px;text-decoration:none;">
+									<img src="https://www.rosehavenhomes.com/email/6228/twitter.png" style="line-height:0px;">
+								</a>
+								<a href="https://www.instagram.com/rosehavenhomes/" target="_blank" style="line-height:0px;text-decoration:none;">
+									<img src="https://www.rosehavenhomes.com/email/6228/instagram.png" style="line-height:0px;">
+								</a>
+								<a href="https://www.pinterest.com/rosehavenhomes/" target="_blank" style="line-height:0px;text-decoration:none;">
+									<img src="https://www.rosehavenhomes.com/email/6228/pinterest.png" style="line-height:0px;">
+								</a>
+							</td>
+						</tr>
+					</table>
+					<table border="0" cellpadding="0" cellspacing="0" class="sixty" align="left">
+						<tr>
+							<td style="border-collapse:collapse;margin:0px;padding:6px 0px 0px 34px;color:#fff;font-family:'Gotham', sans-serif;font-size:10px;line-height:1.41;text-align:left;" class="legal1">
+								<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.41;"><![endif]-->
+									If you would prefer not to receive future marketing related emails, you can easily unsubscribe by <a href="https://www.rosehavenhomes.com/unsubscribe/?mkt_unsubscribe=1&mkt_tok=##MKT_TOK##" target="_blank" style="line-height:1.41;color:#fff;text-decoration:none;">clicking here</a>.
+								<!--[if gte mso 9]></font><![endif]-->
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:0px;background-color:#0b403d;color:#fff;font-family:'Futura', sans-serif;font-size:10px;line-height:1.64;text-align:center;" class="footer3">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.64;"><![endif]-->
+						**Commission payable on purchase price NET of HST and offered for a limited time only.
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:0px;background-color:#0b403d;color:#fff;font-family:'Futura', sans-serif;font-size:10px;line-height:1.64;text-align:center;" class="footer3">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.64;"><![endif]-->
+						*Price and information correct at sent time and subject to change without notice. Offer valid until June 30th, 2020. Cannot be com-
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:0px 0px 24px;background-color:#0b403d;color:#fff;font-family:'Futura', sans-serif;font-size:10px;line-height:1.64;text-align:center;" class="footer3">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.64;"><![endif]-->
+						bined with other offers. Client must be accompanied by their broker. Renderings are artist’s concept. E. &amp; O.E.
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" align="center" class="disclaim" style="width:600px;height:auto;border-collapse:collapse;">
+			<tr>
+				<td style="border-collapse:collapse;margin:0px;padding:60px 0px;color:#8f8f8f;font-family:'Gotham', sans-serif;font-size:12px;line-height:1.6;" class="disclaim">
+					<!--[if gte mso 9]><font family="Helvetica, sans-serif" style="line-height:1.6;"><![endif]-->
+						We just wanted to remind you that you're receiving this email because you have expressed an interest in Rosehaven Homes. Don't forget to add <a href="mailto:ecast@rosehavenhomes.com" style="color:#8f8f8f;text-decoration:none;line-height:1.6;">ecast@rosehavenhomes.com</a> to your address book so we'll be sure to land in your inbox!
+					<!--[if gte mso 9]></font><![endif]-->
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
